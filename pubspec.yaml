@@ -1,0 +1,39 @@
+name: fitness_tracking_app
+description: "Fitness Tracking App By Gopal Bhardwaj"
+
+# Prevents accidental publication to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended linting rules for good coding practices
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add asset files for images, fonts, etc. here
+  # assets:
+  #   - images/logo.png
+  #   - images/background.jpg
+
+  # Define custom fonts here if required
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
